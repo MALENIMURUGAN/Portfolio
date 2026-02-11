@@ -443,10 +443,6 @@ h2 {
 
 
 ## OUTPUT
-![alt text](<Screenshot 2026-02-11 155906.png>)
- ![alt text](<Screenshot 2026-02-11 155927.png>)
-  ![alt text](<Screenshot 2026-02-11 155938.png>) 
-  ![alt text](<Screenshot 2026-02-11 155958.png>)
-
+![alt text](<Screenshot 2026-02-11 160752.png>) ![alt text](<Screenshot 2026-02-11 161123.png>) ![alt text](<Screenshot 2026-02-11 161140.png>) ![alt text](<Screenshot 2026-02-11 161212.png>)
 ## RESULT
 The program for creating Portfolio using HTML and CSS is executed successfully.
