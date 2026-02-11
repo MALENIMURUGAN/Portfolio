@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Maleni M</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" style="background: var(--secondary-gradient); padding: 120px 20px 80px;">
+        <h1>About Me</h1>
+        <p>3rd Year B.E. CSE | Passionate Full-Stack Developer & UI/UX Designer</p>
+    </section>
+
+    <section class="container">
+        <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+            <h2 style="background: var(--purple-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">My Journey</h2>
+            <p style="font-size: 1.2rem; color: #666; margin-bottom: 2rem;">
+                Computer Science student from Chennai building modern web apps, IoT healthcare solutions, and pixel-perfect UI/UX designs. 
+                Currently mastering React/Next.js, Tailwind CSS, Figma, and AWS Cloud.
+            </p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 4rem;">
+            <div class="project-card" style="background: var(--dark-gradient); color: white; text-align: center; padding: 2rem;">
+                <h3 style="color: #A8D5BA;">🎓 Education</h3>  <!-- Changed from #FFD93D -->
+                <p>B.E. Computer Science & Engineering<br>Saveetha Engineering College<br>Expected 2027</p>
+            </div>
+            <div class="project-card" style="background: var(--primary-gradient); color: white; text-align: center; padding: 2rem;">
+                <h3 style="color: #A8D5BA;">💻 Skills</h3>     <!-- Changed from #FFD93D -->
+                <p>React, Next.js, Tailwind CSS<br>Figma, Firebase, AWS<br>GitHub, Netlify, VS Code</p>
+            </div>
+            <div class="project-card" style="background: var(--purple-gradient); color: white; text-align: center; padding: 2rem;">
+                <h3 style="color: #A8D5BA;">🚀 Goals</h3>      <!-- Changed from #FFD93D -->
+                <p>Frontend Developer Internships<br>Google, Microsoft, Startups<br>Full-Stack & UI/UX Roles</p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            document.querySelector('nav').classList.toggle('scrolled', window.scrollY > 50);
+        });
+    </script>
+</body>
+</html>

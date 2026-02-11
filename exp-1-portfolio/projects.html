@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Maleni M</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" style="background: var(--purple-gradient);">
+        <h1>My Projects</h1>
+        <p>Real-world applications built with modern technologies</p>
+    </section>
+
+    <section class="container">
+        <h2 style="text-align: center; margin-bottom: 4rem;">Featured Work</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="card-content">
+                    <h3>E-Commerce Website</h3>
+                    <p>Full-stack Next.js application with responsive design, cart functionality, and Netlify deployment.</p>
+                    <a href="#" class="btn" style="margin-top: 1rem; display: inline-block;">Live Demo →</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-content">
+                    <h3>Online Notes App</h3>
+                    <p>React + Firebase real-time notes application with user authentication and CRUD operations.</p>
+                    <a href="#" class="btn" style="margin-top: 1rem; display: inline-block;">Live Demo →</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-content">
+                    <h3>Healthcare IoT System</h3>
+                    <p>IoT sensors monitoring vital signs with AWS cloud integration and real-time data dashboard.</p>
+                    <a href="#" class="btn" style="margin-top: 1rem; display: inline-block;">View Project →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            document.querySelector('nav').classList.toggle('scrolled', window.scrollY > 50);
+        });
+    </script>
+</body>
+</html>

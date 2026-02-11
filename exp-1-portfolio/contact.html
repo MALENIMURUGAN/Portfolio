@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Maleni Murugan</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" style="background: var(--dark-gradient);">
+        <h1>Get In Touch</h1>
+        <p>Ready for internships & collaboration opportunities</p>
+    </section>
+
+    <section class="container">
+        <div class="contact-form">
+            <h2 style="text-align: center; margin-bottom: 2rem; color: #2c3e50;">Send Message</h2>
+            <form>
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="your@email.com" required>
+                </div>
+                <div class="form-group">
+                    <textarea rows="6" placeholder="Tell me about your project or opportunity..." required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+
+        <div style="margin-top: 4rem; text-align: center;">
+            <h3 style="color: #2c3e50; margin-bottom: 1rem;">Or Reach Me Directly</h3>
+            <p style="font-size: 1.1rem; color: #666;">
+                📧 malenimurugan@email.com<br>
+                💼 LinkedIn: <a href="#" style="color: #4ECDC4;">MALENIMURUGAN</a><br>
+                💻 GitHub: <a href="#" style="color: #4ECDC4;">MALENIMURUGAN</a><br>
+                📍 Chennai, Tamil Nadu, India.
+            </p>
+        </div>
+    </section>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            document.querySelector('nav').classList.toggle('scrolled', window.scrollY > 50);
+        });
+    </script>
+</body>
+</html>
